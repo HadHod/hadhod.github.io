@@ -1,0 +1,58 @@
+body {
+  background-color: #111111;
+  color: white;
+  width: 768px;
+  margin: auto;
+}
+
+.section {
+  border: 1px solid white;
+  padding: 12px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  transition: border 500ms ease-out;
+}
+
+.section:hover {
+  border: 1px solid green;
+}
+
+.section__header {
+  text-decoration: solid;
+}
+
+table {
+  width: 512px;
+  table-layout: fixed;
+}
+
+table th {
+  text-align: left;
+  border-bottom: 1px solid white;
+}
+
+dd:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+dt {
+  color: #1167b1;
+}
+
+a {
+  color: green;
+  text-decoration: none;
+}
+
+.section.alert {
+  border: 1px red solid;
+
+  animation: blink 1s;
+  animation-iteration-count: 3;
+}
+
+@keyframes blink {
+  50% {
+    border-color:#fff;
+  }
+}
