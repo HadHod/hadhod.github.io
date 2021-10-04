@@ -5,6 +5,13 @@ body {
   margin: auto;
 }
 
+@media (max-width: 768px) {
+  body {
+    width: calc(100% - 8px);
+    margin: 4px;
+  }
+}
+
 .section {
   border: 1px solid white;
   padding: 12px;
