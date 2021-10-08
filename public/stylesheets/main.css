@@ -29,7 +29,7 @@ body {
 }
 
 table {
-  width: 512px;
+  width: 100%;
   table-layout: fixed;
 }
 
@@ -44,6 +44,10 @@ dd:not(:last-child) {
 
 dt {
   color: #1167b1;
+}
+
+ul {
+  columns: 3;
 }
 
 a {
