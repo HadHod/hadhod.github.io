@@ -50,9 +50,22 @@ ul {
   columns: 3;
 }
 
+li {
+  list-style-type: none;
+}
+
+li:before {
+  content: '►';
+  margin-left: -20px;
+}
+
 a {
   color: green;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .section.alert {
