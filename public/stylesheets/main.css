@@ -68,15 +68,6 @@ a:hover {
   text-decoration: underline;
 }
 
-.section.alert {
-  border: 1px red solid;
-
-  animation: blink 1s;
-  animation-iteration-count: 3;
-}
-
-@keyframes blink {
-  50% {
-    border-color:#fff;
-  }
+#mindmap {
+  height: 600px;
 }
