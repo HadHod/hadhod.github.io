@@ -15,6 +15,7 @@ window.addEventListener('load', () => {
     { id: 23, label: "Grants" },
     { id: 24, label: "OpenSource" },
     { id: 25, label: "D_D" },
+    { id: 26, label: "Solidity" },
 
     { id: 3, label: "Projects" },
     { id: 31, label: "Three.js" },
@@ -31,6 +32,7 @@ window.addEventListener('load', () => {
     { id: 5, label: "Additional" },
     { id: 51, label: "Ukulele" },
     { id: 52, label: "GlobalTODO" },
+    { id: 53, label: "German" },
 
     { id: 6, label: "Money" },
     { id: 61, label: "Freelancing" },
@@ -50,6 +52,7 @@ window.addEventListener('load', () => {
     { from: 2, to: 23 },
     { from: 2, to: 24 },
     { from: 2, to: 25 },
+    { from: 2, to: 26 },
 
     { from: 3, to: 31 },
     { from: 3, to: 32 },
@@ -63,6 +66,7 @@ window.addEventListener('load', () => {
 
     { from: 5, to: 51 },
     { from: 5, to: 52 },
+    { from: 5, to: 53 },
 
     { from: 6, to: 61 },
     { from: 6, to: 62 },
