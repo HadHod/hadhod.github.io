@@ -20,8 +20,19 @@ body {
   transition: border 500ms ease-out;
 }
 
+.section:first-child {
+  display: flex;
+}
+
 .section:hover {
   border: 1px solid green;
+}
+
+.section .profile-picture {
+  width: 8%;
+  height: 8%;
+  filter: grayscale(100%);
+  margin-right: 12px;
 }
 
 .section__header {
