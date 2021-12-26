@@ -33,6 +33,7 @@ window.addEventListener('load', () => {
     { id: 51, label: "Ukulele" },
     { id: 52, label: "GlobalTODO" },
     { id: 53, label: "German" },
+    { id: 54, label: "Taxes" },
 
     { id: 6, label: "Money" },
     { id: 61, label: "Freelancing" },
@@ -67,6 +68,7 @@ window.addEventListener('load', () => {
     { from: 5, to: 51 },
     { from: 5, to: 52 },
     { from: 5, to: 53 },
+    { from: 5, to: 54 },
 
     { from: 6, to: 61 },
     { from: 6, to: 62 },
