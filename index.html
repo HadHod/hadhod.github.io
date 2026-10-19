@@ -16,119 +16,289 @@
 </head>
 
 <body>
-  <div class="section">
-    <img class="profile-picture" alt="profile image" src="public/images/Matthew8.png" />
-    This site was created to sum up my experience in IT technologies and to show some of my works. My intention is to
-    increase my motivation and be systematical in self-development.
-  </div>
+  <div class="cyber-grid-overlay" aria-hidden="true"></div>
 
-  <div class="section">
-    <h7 class="section__header">Online projects</h7>
-    <dl>
-      <dt><a href="https://pokoleiksiazki.pl/" target="_blank">pokoleiksiazki.pl</a></dt>
-      <dd>PokoleiKsiążki.pl is your clear guide through the world of books. Discover an easy-to-navigate catalog ordered
-        by author. Convenient links direct you straight to top online bookstores so you can quickly find and buy your
-        next read.</dd>
-    </dl>
-  </div>
+  <main class="bento-container">
+    <div class="bento-grid">
 
-  <div class="section">
-    <h7 class="section__header">Social</h7>
-    <ul>
-      <li>
-        <a target="_blank" href="http://www.linkedin.com/in/maciej-młynarski-74a57a53">LinkedIn</a>
-      </li>
-      <li>
-        <a target="_blank" href="https://github.com/HadHod">Github</a>
-      </li>
-      <li>
-        <a target="_blank" href="https://twitter.com/MaciekMlynarski">Twitter</a>
-      </li>
-      <li>
-        <a target="_blank" href="https://www.duolingo.com/profile/Mlyn00">Duolingo</a>
-      </li>
-      <li>
-        <a target="_blank" href="https://www.youtube.com/channel/UCnT8S-dM_k7VBxWSep7pvYQ">YouTube</a>
-      </li>
-      <li>
-        <a target="_blank" href="https://odysee.com/@mlyn:d">Odysee</a>
-      </li>
-      <li>
-        <a target="_blank" href="https://www.strava.com/athletes/85448343">Strava</a>
-      </li>
-    </ul>
-  </div>
+      <!-- Hero / Profile Bento Card -->
+      <section class="section bento-card--hero">
+        <div class="hero-content">
+          <div class="avatar-wrapper">
+            <img class="profile-picture" alt="profile image" src="public/images/Matthew8.png" />
+          </div>
+          <div class="hero-text-block">
+            <div class="card-header-row" style="margin-bottom: 4px;">
+              <h1 class="hero-title">Maciej Młynarski</h1>
+              <span class="badge-pill badge-pill--emerald">
+                <span class="status-dot"></span> Online
+              </span>
+            </div>
+            <p class="hero-bio">
+              This site was created to sum up my experience in IT technologies and to show some of my works. My
+              intention is to
+              increase my motivation and be systematical in self-development.
+            </p>
+            <div class="hero-tags">
+              <span class="badge-pill">#IT_TECH</span>
+              <span class="badge-pill badge-pill--violet">#SELF_DEV</span>
+              <span class="badge-pill">#PORTFOLIO</span>
+            </div>
+          </div>
+        </div>
+      </section>
 
-  <div class="section">
-    <h7 class="section__header">Affiliate links</h7>
+      <!-- Social Links Bento Card -->
+      <section class="section bento-card--social">
+        <div class="card-header-row">
+          <h2 class="section__header">Social</h2>
+          <span class="badge-pill badge-pill--violet">Connect</span>
+        </div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a class="social-link" target="_blank" href="http://www.linkedin.com/in/maciej-młynarski-74a57a53">
+              <span class="social-icon-box" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.45a1.64 1.64 0 1 0 0 3.28 1.64 1.64 0 0 0 0-3.28Z" />
+                </svg>
+              </span>
+              <span>LinkedIn</span>
+            </a>
+          </li>
+          <li class="social-item">
+            <a class="social-link" target="_blank" href="https://github.com/HadHod">
+              <span class="social-icon-box" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+                </svg>
+              </span>
+              <span>Github</span>
+            </a>
+          </li>
+          <li class="social-item">
+            <a class="social-link" target="_blank" href="https://twitter.com/MaciekMlynarski">
+              <span class="social-icon-box" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                </svg>
+              </span>
+              <span>Twitter</span>
+            </a>
+          </li>
+          <li class="social-item">
+            <a class="social-link" target="_blank" href="https://www.duolingo.com/profile/Mlyn00">
+              <span class="social-icon-box" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15.5c-2.49 0-4.5-2.01-4.5-4.5S8.51 8.5 11 8.5c1.45 0 2.73.69 3.55 1.76l-1.46 1.12C12.61 10.74 11.87 10.3 11 10.3c-1.49 0-2.7 1.21-2.7 2.7s1.21 2.7 2.7 2.7c1.19 0 2.21-.78 2.56-1.85H11v-1.8h4.5v1.2c0 2.65-2.02 4.25-4.5 4.25z" />
+                </svg>
+              </span>
+              <span>Duolingo</span>
+            </a>
+          </li>
+          <li class="social-item">
+            <a class="social-link" target="_blank" href="https://www.youtube.com/channel/UCnT8S-dM_k7VBxWSep7pvYQ">
+              <span class="social-icon-box" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                </svg>
+              </span>
+              <span>YouTube</span>
+            </a>
+          </li>
+          <li class="social-item">
+            <a class="social-link" target="_blank" href="https://odysee.com/@mlyn:d">
+              <span class="social-icon-box" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1.2 14.5l-4.7-2.7a.8.8 0 0 1 0-1.4l4.7-2.7a.8.8 0 0 1 1.2.7v5.4a.8.8 0 0 1-1.2.7z" />
+                </svg>
+              </span>
+              <span>Odysee</span>
+            </a>
+          </li>
+          <li class="social-item">
+            <a class="social-link" target="_blank" href="https://www.strava.com/athletes/85448343">
+              <span class="social-icon-box" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M15.387 17.944l-2.089-4.116h-3.065L15.387 24l5.15-10.172h-3.066m-7.008-5.599l2.836 5.598h4.172L10.463 0l-7.925 15.65h4.173" />
+                </svg>
+              </span>
+              <span>Strava</span>
+            </a>
+          </li>
+        </ul>
+      </section>
 
-    <dl>
-      <dt>LYNX (stocks market exchange and more)</dt>
-      <dd>
-        <a target="_blank"
-          href="https://www.lynx.nl/broker-acties/vriendenactie/introducee/?friend_referral=YTNhMDIwMGY0ZDc1">
-          Receive up to €50 Cashback for generated commissions for the first 3 months
-        </a>
-      </dd>
+      <!-- Online Projects Bento Card -->
+      <section class="section bento-card--projects">
+        <div class="card-header-row">
+          <h2 class="section__header">Online projects</h2>
+          <span class="badge-pill">Production</span>
+        </div>
+        <div class="project-card-item">
+          <div class="project-header-link">
+            <a class="project-title-link" href="https://pokoleiksiazki.pl/" target="_blank">
+              <span>pokoleiksiazki.pl</span>
+              <span class="external-arrow" aria-hidden="true">↗</span>
+            </a>
+            <span class="badge-pill badge-pill--violet">Book Catalog</span>
+          </div>
+          <p class="project-desc">
+            PokoleiKsiążki.pl is your clear guide through the world of books. Discover an easy-to-navigate catalog
+            ordered
+            by author. Convenient links direct you straight to top online bookstores so you can quickly find and buy
+            your
+            next read.
+          </p>
+        </div>
+      </section>
 
-      <dt>Coinbase (crypto centralized exchange) TODO</dt>
-      <dd>
-        <a target="_blank" href="https://www.coinbase.com/join/mynars_c2">
-          $10 bonus after $100 trades
-        </a>
-      </dd>
+      <!-- Affiliate Links Bento Card -->
+      <section class="section bento-card--affiliates">
+        <div class="card-header-row">
+          <h2 class="section__header">Affiliate links</h2>
+          <span class="badge-pill badge-pill--violet">Rewards</span>
+        </div>
+        <div class="affiliate-grid">
+          <div class="affiliate-item">
+            <div class="affiliate-platform">
+              <span>LYNX (stocks market exchange and more)</span>
+              <span class="affiliate-tag">Stocks</span>
+            </div>
+            <a class="affiliate-link" target="_blank"
+              href="https://www.lynx.nl/broker-acties/vriendenactie/introducee/?friend_referral=YTNhMDIwMGY0ZDc1">
+              <span>Receive up to €50 Cashback for generated commissions for the first 3 months</span>
+              <span class="external-arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
 
-      <dt>Gemini (crypto centralized exchange)</dt>
-      <dd>
-        <a target="_blank" href="https://gemini.com/share/wgmrvpyce">
-          $10 in BTC bonus after $100 trades
-        </a>
-      </dd>
+          <div class="affiliate-item">
+            <div class="affiliate-platform">
+              <span>Coinbase (crypto centralized exchange) TODO</span>
+              <span class="affiliate-tag">Crypto</span>
+            </div>
+            <a class="affiliate-link" target="_blank" href="https://www.coinbase.com/join/mynars_c2">
+              <span>$10 bonus after $100 trades</span>
+              <span class="external-arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
 
-      <dt>Degiro (stocks market exchange and more)</dt>
-      <dd>
-        <a target="_blank"
-          href="https://www.degiro.pl/member-get-member/rozpocznij-inwestowanie?id=AB36E796&utm_source=mgm">
-          €20 refund of commissions for the first 3 months trades
-        </a>
-      </dd>
-    </dl>
-  </div>
+          <div class="affiliate-item">
+            <div class="affiliate-platform">
+              <span>Gemini (crypto centralized exchange)</span>
+              <span class="affiliate-tag">Crypto</span>
+            </div>
+            <a class="affiliate-link" target="_blank" href="https://gemini.com/share/wgmrvpyce">
+              <span>$10 in BTC bonus after $100 trades</span>
+              <span class="external-arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
 
-  <div class="section">
-    <h7 class="section__header">Donate</h7>
+          <div class="affiliate-item">
+            <div class="affiliate-platform">
+              <span>Degiro (stocks market exchange and more)</span>
+              <span class="affiliate-tag">Stocks</span>
+            </div>
+            <a class="affiliate-link" target="_blank"
+              href="https://www.degiro.pl/member-get-member/rozpocznij-inwestowanie?id=AB36E796&utm_source=mgm">
+              <span>€20 refund of commissions for the first 3 months trades</span>
+              <span class="external-arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+      </section>
 
-    <dl>
-      <dt>Ethereum</dt>
-      <dd>0x3a5b9476b7aA707488436f2AAbb4A398DCdbF1F4</dd>
+      <!-- Donate Bento Card -->
+      <section class="section bento-card--donate">
+        <div class="card-header-row">
+          <h2 class="section__header">Donate</h2>
+          <span class="badge-pill">Web3 &amp; Fiat</span>
+        </div>
+        <div class="donate-grid">
+          <div class="crypto-wallet-card">
+            <div class="crypto-top">
+              <span class="crypto-network-name">Ethereum</span>
+              <span class="crypto-badge">ETH</span>
+            </div>
+            <div class="crypto-address-row">
+              <span class="crypto-address-text">0x3a5b9476b7aA707488436f2AAbb4A398DCdbF1F4</span>
+              <button type="button" class="copy-btn" data-address="0x3a5b9476b7aA707488436f2AAbb4A398DCdbF1F4"
+                title="Copy Ethereum address">Copy</button>
+            </div>
+          </div>
 
-      <dt>Iotex</dt>
-      <dd>io1jnv8a7c0nnymxdav02k3d0f3u9jh0nxnadlz3j</dd>
+          <div class="crypto-wallet-card">
+            <div class="crypto-top">
+              <span class="crypto-network-name">Iotex</span>
+              <span class="crypto-badge">IOTX</span>
+            </div>
+            <div class="crypto-address-row">
+              <span class="crypto-address-text">io1jnv8a7c0nnymxdav02k3d0f3u9jh0nxnadlz3j</span>
+              <button type="button" class="copy-btn" data-address="io1jnv8a7c0nnymxdav02k3d0f3u9jh0nxnadlz3j"
+                title="Copy Iotex address">Copy</button>
+            </div>
+          </div>
 
-      <dt>Bitcoin</dt>
-      <dd>bc1qcgqm8nwnft37hgrhxuys93zy5qg440eulgurzj</dd>
+          <div class="crypto-wallet-card">
+            <div class="crypto-top">
+              <span class="crypto-network-name">Bitcoin</span>
+              <span class="crypto-badge">BTC</span>
+            </div>
+            <div class="crypto-address-row">
+              <span class="crypto-address-text">bc1qcgqm8nwnft37hgrhxuys93zy5qg440eulgurzj</span>
+              <button type="button" class="copy-btn" data-address="bc1qcgqm8nwnft37hgrhxuys93zy5qg440eulgurzj"
+                title="Copy Bitcoin address">Copy</button>
+            </div>
+          </div>
 
-      <dt>Binance Smart Chain</dt>
-      <dd>0xF66D5F53B607aB06B2043c11b2bC975394190e3a</dd>
+          <div class="crypto-wallet-card">
+            <div class="crypto-top">
+              <span class="crypto-network-name">Solana</span>
+              <span class="crypto-badge">SOL</span>
+            </div>
+            <div class="crypto-address-row">
+              <span class="crypto-address-text">GVE6kcgDBCircA9Hn1HRaVcbAHxRHWmfULjvatkj4FJT</span>
+              <button type="button" class="copy-btn" data-address="GVE6kcgDBCircA9Hn1HRaVcbAHxRHWmfULjvatkj4FJT"
+                title="Copy Solana address">Copy</button>
+            </div>
+          </div>
 
-      <dt>Solana</dt>
-      <dd>GVE6kcgDBCircA9Hn1HRaVcbAHxRHWmfULjvatkj4FJT</dd>
+          <div class="crypto-wallet-card paypal-card">
+            <div>
+              <div class="crypto-network-name" style="margin-bottom: 4px;">PayPal</div>
+              <span class="badge-pill badge-pill--violet">Direct Support</span>
+            </div>
+            <div class="paypal-form-wrapper">
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="WHQ83EPWY5HF8">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0"
+                  name="submit" alt="PayPal - The safer, easier way to pay online!">
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
 
-      <dt>PayPal</dt>
-      <dd>
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-          <input type="hidden" name="cmd" value="_s-xclick">
-          <input type="hidden" name="hosted_button_id" value="WHQ83EPWY5HF8">
-          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit"
-            alt="PayPal - The safer, easier way to pay online!">
-        </form>
-      </dd>
-    </dl>
-  </div>
+      <!-- Footer Bento Card -->
+      <footer class="section bento-card--footer">
+        <div class="footer-text">
+          <span>Last update ► 2026.10</span>
+        </div>
+        <div class="footer-status-pill">
+          <span class="status-dot"></span>
+          <span>SYSTEM OPERATIONAL // PORTFOLIO ONLINE</span>
+        </div>
+      </footer>
 
-  <div class="section">
-    <footer>Last update ► 2026.10</footer>
-  </div>
+    </div>
+  </main>
 
   <script type="text/javascript" src="public/javascripts/main.js"></script>
 </body>
