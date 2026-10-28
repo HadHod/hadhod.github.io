@@ -321,6 +321,12 @@ body::after {
 }
 
 /* Projects Card */
+.projects-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
 .project-card-item {
   background: var(--bg-glass-subtle);
   border: var(--border-subtle);
